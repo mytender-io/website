@@ -1,0 +1,67 @@
+name: Website Build and Deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "20"
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: List Build Output
+        run: |
+          echo "Listing project files:"
+          ls -la
+          if [ -d "./out" ]; then
+            echo "Static export detected - contents of ./out:"
+            ls -la ./out
+          fi
+          if [ -d "./.next" ]; then
+            echo "Server-side build detected - contents of ./.next:"
+            ls -la ./.next
+          fi
+      - name: Deploy to Server
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOYMENT_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan mytender.io >> ~/.ssh/known_hosts
+          
+          # For Next.js static export (if using export)
+          if [ -d "./out" ]; then
+            echo "Deploying static export..."
+            scp -i ~/.ssh/id_rsa -r ./out/* ec2-user@mytender.io:/home/ec2-user/website
+          # For standard Next.js build (server-side rendering)
+          elif [ -d "./.next" ]; then
+            echo "Deploying server-side rendered app..."
+            # Copy the .next directory
+            scp -i ~/.ssh/id_rsa -r ./.next ec2-user@mytender.io:/home/ec2-user/website/
+            
+            # Copy public directory if it exists
+            if [ -d "./public" ]; then
+              scp -i ~/.ssh/id_rsa -r ./public ec2-user@mytender.io:/home/ec2-user/website/
+            fi
+            
+            # Copy package files
+            scp -i ~/.ssh/id_rsa ./package.json ec2-user@mytender.io:/home/ec2-user/website/
+            if [ -f "./package-lock.json" ]; then
+              scp -i ~/.ssh/id_rsa ./package-lock.json ec2-user@mytender.io:/home/ec2-user/website/
+            fi
+            
+            # Copy next.config.js only if it exists
+            if [ -f "./next.config.js" ]; then
+              scp -i ~/.ssh/id_rsa ./next.config.js ec2-user@mytender.io:/home/ec2-user/website/
+            fi
+          else
+            echo "Next.js build output not found"
+            exit 1
+          fi
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOYMENT_KEY }}
