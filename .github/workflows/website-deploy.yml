@@ -46,7 +46,13 @@ jobs:
             
             # Copy public directory if it exists
             if [ -d "./public" ]; then
+              echo "Copying public directory with all subfolders..."
+              # First remove existing public directory to avoid conflicts
+              ssh -i ~/.ssh/id_rsa ec2-user@mytender.io "rm -rf /home/ec2-user/website/public"
+              # Then copy the entire public directory recursively
               scp -i ~/.ssh/id_rsa -r ./public ec2-user@mytender.io:/home/ec2-user/website/
+              # List the directory structure on the server to verify
+              ssh -i ~/.ssh/id_rsa ec2-user@mytender.io "find /home/ec2-user/website/public -type d | sort"
             fi
             
             # Copy package files
@@ -63,5 +69,16 @@ jobs:
             echo "Next.js build output not found"
             exit 1
           fi
+          
+          # Add this after copying files
+          ssh -i ~/.ssh/id_rsa ec2-user@mytender.io << 'EOF'
+            cd /home/ec2-user/website
+            # Install production dependencies if node_modules doesn't exist
+            if [ ! -d "node_modules" ]; then
+              echo "Installing production dependencies..."
+              npm install --production
+            fi
+            pm2 restart nextjs-website || pm2 start ecosystem.config.js
+          EOF
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOYMENT_KEY }}
