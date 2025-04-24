@@ -108,8 +108,8 @@ export default function Killingley() {
               </Text>
             </motion.div>
             <Image
-              src="https://mytender.b-cdn.net/Case%20Stuides/Killingley/killingley-main.webp"
-              alt="Killingley"
+              src="/case-study/killingley-main.png"
+              alt="killingley"
               width={808}
               height={480}
               className="rounded-xl mt-6 mb-10"
@@ -127,7 +127,7 @@ export default function Killingley() {
                 <br />
                 <br /> Additionally, the company experienced a win rate of only
                 28%, which highlighted the need for improved efficiency and
-                effectiveness in securing projects. Furthermore, Killingley’s
+                effectiveness in securing projects. Furthermore, Killingley's
                 bidding capabilities were limited, which restricted
                 opportunities for growth and expansion.
               </Text>

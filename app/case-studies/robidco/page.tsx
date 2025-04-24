@@ -127,7 +127,7 @@ export default function Rabidco() {
               </Text>
             </motion.div>
             <Image
-              src="https://mytender.b-cdn.net/Case%20Stuides/Robidco/robid.png"
+              src="/case-study/robidco-main.png"
               alt="Robidco"
               width={808}
               height={480}
@@ -168,8 +168,8 @@ export default function Rabidco() {
                 operations without burdening internal teams.
                 <br />
                 <br />
-                By combining Robidco’s sector-specific expertise with
-                mytender.io’s proven systems, construction firms gained access
+                By combining Robidco's sector-specific expertise with
+                mytender.io's proven systems, construction firms gained access
                 to end-to-end bid support. This included everything from
                 document preparation and compliance tracking to automated
                 content generation and project oversight. Together, Robidco and

@@ -95,7 +95,7 @@ export default function Stadium() {
               <Text className=" pb-[18px]">
                 Stadium FM is a trusted provider of integrated facilities
                 management solutions, delivering safe, efficient, and
-                high-quality services across the UK’s most dynamic venues and
+                high-quality services across the UK's most dynamic venues and
                 environments.
                 <br />
                 <br />
@@ -109,7 +109,7 @@ export default function Stadium() {
               </Text>
             </motion.div>
             <Image
-              src="https://mytender.b-cdn.net/Case%20Stuides/Stadium/Stadium%20case%20study%20.png"
+              src="/case-study/stadium-main.png"
               alt="Stadium"
               width={808}
               height={480}
@@ -148,7 +148,7 @@ export default function Stadium() {
                 <br />
                 Since implementation, Stadium FM has reduced bid prep time by
                 40%, increased throughput by 2.5x, and improved win rates by 22%
-                over a 12-month period. The platform’s automated content
+                over a 12-month period. The platform's automated content
                 generation, collaboration tools, and reusable content library
                 proved critical in delivering faster, more consistent
                 bids—especially during high-volume periods.

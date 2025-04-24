@@ -32,8 +32,7 @@ export const CARDS = [
     {
       id: 1,
       type: "image" as const,
-      imageSrc:
-        "https://mytender.b-cdn.net/Our%20Story/Journey%20images%201%20-5/Sam%20Progreening.jpg",
+      imageSrc: "/journey/1.jpeg",
     },
   ],
   [
@@ -58,8 +57,7 @@ export const CARDS = [
     {
       id: 1,
       type: "image" as const,
-      imageSrc:
-        "https://mytender.b-cdn.net/Our%20Story/Journey%20images%201%20-5/Software%20SS%20(For%20Our%20Story%20Page).png",
+      imageSrc: "/journey/2.png",
     },
   ],
   [
@@ -82,8 +80,7 @@ export const CARDS = [
     {
       id: 1,
       type: "image" as const,
-      imageSrc:
-        "https://mytender.b-cdn.net/Our%20Story/Journey%20images%201%20-5/Presenting%20at%20the%20SJM%20Opening.png",
+      imageSrc: "/journey/3.png",
     },
   ],
   [
@@ -110,8 +107,7 @@ export const CARDS = [
     {
       id: 1,
       type: "image" as const,
-      imageSrc:
-        "https://mytender.b-cdn.net/Our%20Story/Journey%20images%201%20-5/93d8af76-3085-4002-83f3-22b4c09fdce6.JPG",
+      imageSrc: "/journey/4.jpeg",
     },
   ],
   [
@@ -133,8 +129,7 @@ export const CARDS = [
     {
       id: 1,
       type: "image" as const,
-      imageSrc:
-        "https://mytender.b-cdn.net/Our%20Story/Journey%20images%201%20-5/MyTender_Photos_27.jpeg",
+      imageSrc: "/journey/5.jpeg",
     },
   ],
 ];

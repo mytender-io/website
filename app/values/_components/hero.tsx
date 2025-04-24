@@ -6,7 +6,7 @@ export default function OurValuesHero() {
       <div className="rounded-[17px] target:h-[400px] overflow-hidden w-full relative lg:w-1/2 max-w-[600px] target:max-w-[647px] hidden lg:block">
         <Image
         priority
-          src="https://mytender.b-cdn.net/Values/MyTender_Photos_27.jpeg"
+          src="/values/team-photo.jpeg"
           alt="values"
           width={647}
           height={427}
@@ -25,7 +25,7 @@ export default function OurValuesHero() {
           {""}
           <Image
           priority
-            src="https://mytender.b-cdn.net/Values/MyTender_Photos_27.jpeg"
+            src="/values/team-photo.jpeg"
             alt="values"
             width={647}
             height={427}
@@ -40,14 +40,14 @@ export default function OurValuesHero() {
           the planet we share
           <br />
           <br />
-          We’re always working to leave the world better than we found it, and
+          We're always working to leave the world better than we found it, and
           to create powerful tools that empower others to (win more, bid more
           and) do the same.{" "}
         </p>
         <p className="text-[#F96B13] bg-[#F96B130A] text-lg font-medium leading-6 tracing-[-1%] rounded-[12px] max-w-[600px] lg:max-w-[482px] mx-auto px-4 py-[18px]">
-          “We believe business, at its best, drives positive change, uplifts
+          "We believe business, at its best, drives positive change, uplifts
           communities across the globe, and brings people closer than ever
-          before.”
+          before."
         </p>
       </div>
     </div>

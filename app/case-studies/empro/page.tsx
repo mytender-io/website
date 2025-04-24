@@ -126,7 +126,7 @@ export default function Empro() {
               </Text>
             </motion.div>
             <Image
-              src="https://mytender.b-cdn.net/Case%20Stuides/Empro/empro-main.webp"
+              src="/case-study/empro-main.png"
               alt="Empro"
               width={808}
               height={480}
@@ -175,7 +175,7 @@ export default function Empro() {
                 checks, and project coordination. By bringing structure,
                 consistency, and dedicated expertise to the process, clients saw
                 measurable improvements in bid turnaround times, win rates, and
-                overall team efficiency. Empro’s ability to identify the right
+                overall team efficiency. Empro's ability to identify the right
                 partner and facilitate a smooth introduction ensured maximum
                 value was delivered with minimal disruption.
               </Text>
