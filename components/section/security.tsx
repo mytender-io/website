@@ -9,7 +9,7 @@ export default function SecurityAndCompliance() {
       <div className="bg-[#1c1c1c] flex lg:flex-row flex-col-reverse items-center gap-20 px-5 py-14 lg:px-10 h-full w-full max-w-[1372px] m-auto lg:rounded-[20px] overflow-hidden lg:scale-93">
         <div className="w-full">
           <Image
-            src="https://mytender.b-cdn.net/Home%20Page/security%20image%20.webp"
+            src="/security.jpeg"
             alt="Security and Compliance"
             width={1920}
             height={1080}
