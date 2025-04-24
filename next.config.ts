@@ -19,16 +19,6 @@ const nextConfig: NextConfig = {
         hostname: "app.storylane.io",
         pathname: "/**",
       },
-      {
-        protocol: "https",
-        hostname: "bunny.net",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "*.b-cdn.net",
-        pathname: "/**",
-      },
     ],
   },
 };

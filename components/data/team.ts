@@ -14,7 +14,7 @@ export const teams = [
         description4:
           "Fun Fact: Has run as part of a 4x100m relay team in the Olympic Stadium",
         linkedInURL: "https://www.linkedin.com/in/samuelaaron/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/Samuel%20Aaron.jpg",
+        photo: "/team/Samuel Aaron.svg",
       },
       {
         name: "Jamie Horsnell",
@@ -28,7 +28,7 @@ export const teams = [
         description4:
           "Fun fact: He loves MMA/boxing and has an addiction to cereal.",
         linkedInURL: "https://www.linkedin.com/in/jamie-horsnell/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/Jamie%20Horsnell.jpg",
+        photo: "/team/Jamie Horsnell.svg",
       },
       {
         name: "Joshua Aaron",
@@ -42,8 +42,7 @@ export const teams = [
         description4:
           "Fun Fact: He loves climbing and James Bond, and in his youth, he held a UK ranking for shot put and javelin.",
         linkedInURL: "https://www.linkedin.com/in/joshua-aaron/",
-        photo:
-          "https://mytender.b-cdn.net/Team%20Images/Josh%20meet%20the%20team%20image%20.jpeg",
+        photo: "/team/Joshua Aaron.svg",
       },
       {
         name: "Nicolas Dickreuter",
@@ -53,11 +52,10 @@ export const teams = [
         description2:
           "From building early digital tools in his teens to advising global companies on data-driven solutions including Goldman Sachs, Barclays Banking Group, Deutsche Bank, Bank of America and Lehman Brothers.",
         description3:
-          "Currently, he leads AI applications, ensuring mytender.io users are at the forefront of AI’s innovation.",
+          "Currently, he leads AI applications, ensuring mytender.io users are at the forefront of AI's innovation.",
         description4: "Fun Fact: He has been coding since he was seven.",
         linkedInURL: "https://www.linkedin.com/in/dickreuter/",
-        photo:
-          "https://mytender.b-cdn.net/Team%20Images/Nicolas%20Dickreuter.png",
+        photo: "/team/Nicolas Dickreuter.svg",
       },
       {
         name: "Danielle Rahme",
@@ -70,7 +68,7 @@ export const teams = [
           "Currently leading strategy, partnerships, and all things brand, ensuring the company not only works well but feels unforgettable.",
         description4: "Fun Fact: She loves photography, fashion and chatting.",
         linkedInURL: "https://www.linkedin.com/in/danielle-rahme-6b54931a/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/Danielle%20new.png",
+        photo: "/team/Danielle Rahme.svg",
       },
       {
         name: "Deepika Marasetty Seshan",
@@ -84,8 +82,7 @@ export const teams = [
         description4:
           "Fun fact: She loves dancing and can never say no to a great meal—especially when both happen on the same night!",
         linkedInURL: "https://www.linkedin.com/in/deepika-m-s-447541167/",
-        photo:
-          "https://mytender.b-cdn.net/Team%20Images/PXL_20230920_144556836.PORTRAIT.jpg",
+        photo: "/team/Deepika Marasetty Seshan.svg",
       },
       {
         name: "Alex Hoyle",
@@ -98,7 +95,7 @@ export const teams = [
           "Currently driving technological innovation, ensuring product excellence, and enhancing user experience.",
         description4: "Fun Fact: He loves the digital nomad lifestyle.",
         linkedInURL: "https://www.linkedin.com/in/alexander-hoyle4/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/ALEX%20HOYLE.jpeg",
+        photo: "/team/Alex Hoyle.svg",
       },
       {
         name: "Kevin Paul",
@@ -112,7 +109,7 @@ export const teams = [
         description4:
           'Fun Fact: He once built a side project "just for fun", and it ended up being used by hundreds of people.',
         linkedInURL: "https://uk.linkedin.com/company/mytender-io",
-        photo: "https://mytender.b-cdn.net/Team%20Images/Kevin%20Paul%20.jpg",
+        photo: "/team/Kevin Paul.svg",
       },
     ],
   },
@@ -130,7 +127,7 @@ export const teams = [
           "Currently driving strategic growth initiatives, unlocking new market opportunities, and supporting long-term value creation as our Growth & Strategy NED.",
         description4: "Fun Fact: She loves a team day out.",
         linkedInURL: "https://www.linkedin.com/in/emma-armstrong-empro/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/Emma%20armstrong.webp",
+        photo: "/team/Emma Armstrong.svg",
       },
       {
         name: "Chris Payne",
@@ -144,7 +141,7 @@ export const teams = [
         description4:
           "Fun Fact: He loves writing, and a book may even be in the works.",
         linkedInURL: "https://www.linkedin.com/in/cdpayne/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/chris%20payne.jpeg",
+        photo: "/team/Chris Payne.svg",
       },
       {
         name: "Mike Austin",
@@ -158,7 +155,7 @@ export const teams = [
         description4:
           "Fun Fact: At just 16, he founded his first software business.",
         linkedInURL: "https://www.linkedin.com/in/mikethetechie/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/mike%20austin.jpeg",
+        photo: "/team/Mike Austin.svg",
       },
       {
         name: "Eddy Swindell",
@@ -172,7 +169,7 @@ export const teams = [
         description4:
           "Fun Fact: He was involved in two funding rounds and the successful sale of Fresh Relevance to DotDigital.",
         linkedInURL: "https://www.linkedin.com/in/eddyswindell/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/eddy%20swindell.jpg",
+        photo: "/team/Eddy Swindell.svg",
       },
     ],
   },
@@ -190,7 +187,7 @@ export const teams = [
           "Currently leading as Partnerships & IR General Advisor, Gerald brings together strategic insight and relationship-building expertise to drive impactful collaborations and investor engagement across global markets.",
         description4: "Fun Fact: He is a tennis connoisseur.",
         linkedInURL: "https://www.linkedin.com/in/geraldpainter/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/Gerald%20painter.jpg",
+        photo: "/team/Gerald Painter.svg",
       },
       {
         name: "Theresa Thom",
@@ -203,7 +200,7 @@ export const teams = [
           "Currently leading Partnerships & Investor Relations at mytender.io, Theresa brings a deep-rooted passion for strategic growth, relationship building, and impactful bidding.",
         description4: "Fun Fact: She loves travelling and adventures.",
         linkedInURL: "https://www.linkedin.com/in/theresa-thom-bid-solutions/",
-        photo: "https://mytender.b-cdn.net/Team%20Images/Theresa%20Thom.jpeg",
+        photo: "/team/Theresa Thom.svg",
       },
     ],
   },
