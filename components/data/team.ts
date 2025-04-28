@@ -98,7 +98,7 @@ export const teams = [
         photo: "/team/Alex Hoyle.svg",
       },
       {
-        name: "Kevin Paul",
+        name: "Kevin Sofyan",
         title: "Full stack-developer",
         description1:
           "Kevin, a seasoned full-stack developer, has always been passionate about technology and innovation.",
@@ -109,7 +109,7 @@ export const teams = [
         description4:
           'Fun Fact: He once built a side project "just for fun", and it ended up being used by hundreds of people.',
         linkedInURL: "https://uk.linkedin.com/company/mytender-io",
-        photo: "/team/Kevin Paul.svg",
+        photo: "/team/Kevin.svg",
       },
     ],
   },

@@ -177,6 +177,14 @@ export default function Navbar() {
               <Button
                 variant="secondary"
                 className="bg-foreground hover:bg-foreground/90 text-background"
+                onClick={() => {
+                  // @ts-ignore
+                  window.gtag?.('event', 'click', {
+                    event_category: 'Button',
+                    event_label: 'Book a Demo - Desktop',
+                    value: 1
+                  });
+                }}
               >
                 Book a Demo <ChevronRight />
               </Button>
@@ -324,7 +332,15 @@ export default function Navbar() {
                     <div className=" w-full flex flex-col space-y-3 mx-auto p-5 ">
                       <Link href="/book-demo" className="w-full">
                         <Button
-                          onClick={() => setExpanded(false)}
+                          onClick={() => {
+                            setExpanded(false);
+                            // @ts-ignore
+                            window.gtag?.('event', 'click', {
+                              event_category: 'Button',
+                              event_label: 'Book a Demo - Mobile',
+                              value: 1
+                            });
+                          }}
                           variant="default"
                           className="font-semibold h-[44px] text-base w-full"
                         >
