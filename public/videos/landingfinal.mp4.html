@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Placeholder</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .message {
+      font-size: 1.2rem;
+      max-width: 80%;
+    }
+    .play-button {
+      margin-top: 2rem;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: rgba(255,255,255,0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .play-button:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-left: 30px solid white;
+      margin-left: 7px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">mytender.io</div>
+    <div class="message">Video placeholder: This is where the BitStats promotional video would be displayed.</div>
+    <div class="play-button"></div>
+  </div>
+</body>
+</html> 

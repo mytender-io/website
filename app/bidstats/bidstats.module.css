@@ -1,0 +1,69 @@
+/* BitStats Banner Styles */
+
+.banner {
+  width: 100%;
+  background: linear-gradient(90deg, #1a1a1a, #2a2a2a, #1a1a1a);
+  background-size: 200% 100%;
+  animation: gradientShift 10s ease infinite;
+  padding: 12px 0;
+  text-align: center;
+  z-index: 50;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.banner-content {
+  display: flex;
+  white-space: nowrap;
+  width: max-content;
+  animation: scrollBanner 35s linear infinite;
+  padding: 0;
+}
+
+/* Better scrolling that ensures text is always visible */
+@keyframes scrollBanner {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.banner-text {
+  color: white;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 20px;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.bidstats-text {
+  color: #c17bff; /* Purple/lavender color for BidStats text */
+  font-weight: 700;
+  margin: 0 4px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .banner-text {
+    font-size: 0.875rem;
+    padding: 0 15px;
+  }
+} 

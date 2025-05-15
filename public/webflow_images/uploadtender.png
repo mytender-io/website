@@ -1,0 +1,6 @@
+<svg width="550" height="400" viewBox="0 0 550 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="550" height="400" rx="10" fill="#f8f9fa"/>
+  <rect x="50" y="50" width="450" height="300" rx="8" stroke="#4a6cff" stroke-width="2" stroke-dasharray="5 5" fill="none"/>
+  <path d="M275 160 L275 240 M235 200 L315 200" stroke="#4a6cff" stroke-width="2"/>
+  <text x="275" y="290" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#4a6cff">Drop Tender Document Here</text>
+</svg> 
