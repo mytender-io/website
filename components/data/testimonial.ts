@@ -33,14 +33,14 @@ export const testimonials: TestimonialCardProps[] = [
     authorPosition: "Bid Writer at SCG",
     authorImage: "/testimonial/author/4.svg",
   },
-  {
-    logo: "/testimonial/company/5.svg",
-    quote:
-      "Time was the problem for us when tendering for work, the mytender.io platform has taken our bid writing time down from 10 hours to 2 hours, genuinely",
-    authorName: "Jody Matthews",
-    authorPosition: "GSM & Bid Writer at NT Killingley",
-    authorImage: "/testimonial/author/5.svg",
-  },
+  // {
+  //   logo: "/testimonial/company/5.svg",
+  //   quote:
+  //     "Time was the problem for us when tendering for work, the mytender.io platform has taken our bid writing time down from 10 hours to 2 hours, genuinely",
+  //   authorName: "Jody Matthews",
+  //   authorPosition: "GSM & Bid Writer at NT Killingley",
+  //   authorImage: "/testimonial/author/5.svg",
+  // },
   {
     logo: "/testimonial/company/6.svg",
     quote:

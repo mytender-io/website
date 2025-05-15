@@ -10,14 +10,14 @@ const caseStudyCards = [
       "“Stadium FM have been using the brilliant mytender.io platform to save a tonne of time and headaches, whilst being able to win more work.”",
     storyLink: "/case-studies/stadium",
   },
-  {
-    imagePath: "/Killingley.svg",
-    title: "Killingley",
-    tag: "Construction",
-    description:
-      "“Time was the problem for us when tendering for work, the mytender.io platform has taken our bid writing time down from 10 hours to…”",
-    storyLink: "/case-studies/killingley",
-  },
+  // {
+  //   imagePath: "/Killingley.svg",
+  //   title: "Killingley",
+  //   tag: "Construction",
+  //   description:
+  //     "“Time was the problem for us when tendering for work, the mytender.io platform has taken our bid writing time down from 10 hours to…”",
+  //   storyLink: "/case-studies/killingley",
+  // },
   {
     imagePath: "/Empro.svg",
     title: "Empro",

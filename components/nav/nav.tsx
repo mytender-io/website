@@ -68,13 +68,13 @@ export default function Navbar() {
             "Empro Group is a leading UK specialist in Tier 1 Facility Management contract mobilisation delivering forward-thinking and sustainable solutions across the built environment.",
           imageSrc: "/Empro.svg",
         },
-        {
-          title: "Killingley",
-          href: "/case-studies/killingley",
-          description:
-            "Killingley Limited is a leading provider of landscaping and environmental services in the UK, delivering innovative and sustainable solutions for outdoor spaces.",
-          imageSrc: "/Killingley.svg",
-        },
+        // {
+        //   title: "Killingley",
+        //   href: "/case-studies/killingley",
+        //   description:
+        //     "Killingley Limited is a leading provider of landscaping and environmental services in the UK, delivering innovative and sustainable solutions for outdoor spaces.",
+        //   imageSrc: "/Killingley.svg",
+        // },
         {
           title: "Stadium",
           href: "/case-studies/stadium",
@@ -179,10 +179,10 @@ export default function Navbar() {
                 className="bg-foreground hover:bg-foreground/90 text-background"
                 onClick={() => {
                   // @ts-ignore
-                  window.gtag?.('event', 'click', {
-                    event_category: 'Button',
-                    event_label: 'Book a Demo - Desktop',
-                    value: 1
+                  window.gtag?.("event", "click", {
+                    event_category: "Button",
+                    event_label: "Book a Demo - Desktop",
+                    value: 1,
                   });
                 }}
               >
@@ -335,10 +335,10 @@ export default function Navbar() {
                           onClick={() => {
                             setExpanded(false);
                             // @ts-ignore
-                            window.gtag?.('event', 'click', {
-                              event_category: 'Button',
-                              event_label: 'Book a Demo - Mobile',
-                              value: 1
+                            window.gtag?.("event", "click", {
+                              event_category: "Button",
+                              event_label: "Book a Demo - Mobile",
+                              value: 1,
                             });
                           }}
                           variant="default"

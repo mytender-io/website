@@ -179,12 +179,12 @@ const Footer = () => {
           <div className="space-y-4 w-fit">
             <p className="text-[#8B8B8B] leading-5">Case Studies:</p>
             <div className="space-y-3 flex flex-col">
-              <Link
+              {/* <Link
                 className="hover:text-[#F96B13] transition-colors duration-200"
                 href="/case-studies/killingley"
               >
                 Meet Killingley
-              </Link>
+              </Link> */}
               <Link
                 className="hover:text-[#F96B13] transition-colors duration-200"
                 href="/case-studies/robidco"
