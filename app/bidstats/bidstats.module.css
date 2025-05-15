@@ -60,6 +60,38 @@
   100% { opacity: 0.8; }
 }
 
+/* Free trial button */
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  background-color: #f5f5f5;
+}
+
+.freeTrialButton {
+  background-color: #ff9733; /* Orange color similar to the image */
+  color: white;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.freeTrialButton:hover {
+  background-color: #e58a2d;
+}
+
+.freeTrialButton svg {
+  width: 16px;
+  height: 16px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .banner-text {
