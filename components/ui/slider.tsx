@@ -11,7 +11,7 @@ const Slider = ({
   bg = "bg-[#fffffff]",
   gradient = "from-[#ffffff]",
 }: SliderProps) => {
-  const imageIndices = Array.from({ length: 17 }, (_, i) => i).filter(
+  const imageIndices = Array.from({ length: 16 }, (_, i) => i).filter(
     (index) => index !== 2
   );
 

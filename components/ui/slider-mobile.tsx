@@ -132,13 +132,6 @@ const SliderMobile = ({
           alt="customer"
           className="h-8 w-full pr-10 object-cover"
         />
-        <Image
-          src="/slider/17.svg"
-          width={150}
-          height={150}
-          alt="customer"
-          className="h-8 w-full pr-10 object-cover"
-        />
       </InfiniteSlider>
     </div>
   );
