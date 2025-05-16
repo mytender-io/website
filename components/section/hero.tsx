@@ -279,13 +279,13 @@ export default function Hero() {
             proposals in minutes.
           </p>
           <div className="flex gap-3">
-            <Link href="https://mytender.io/book-demo" className="w-full">
+            <Link href="/book-demo" className="w-full">
               <Button variant="default" size="lg">
                 Start now
                 <ChevronRightIcon />
               </Button>
             </Link>
-            <Link href="https://mytender.io/book-demo" className="w-full">
+            <Link href="/book-demo" className="w-full">
               <Button
                 variant="secondary"
                 size="lg"

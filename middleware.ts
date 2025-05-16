@@ -10,6 +10,7 @@ const ALLOWED_ROUTES = [
   "/case-studies",
   "/book-demo",
   "/bidstats",
+  "/personalized-demo",
   // Add all your valid routes here
 ];
 
