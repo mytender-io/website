@@ -1,11 +1,12 @@
-"use client"
+"use client";
 import Heading from "@/components/ui/heading";
 import Slider from "@/components/ui/slider";
 import SliderMobile from "@/components/ui/slider-mobile";
 import Tag from "@/components/ui/tag";
 import { Users } from "lucide-react";
-import CalendlyEmbed from "./_components/calendlyEmbed";
+// import CalendlyEmbed from "./_components/calendlyEmbed";
 import LayoutWithBorders from "@/components/ui/LayoutWithBorder";
+import HubSpotEmbed from "./_components/hubspotEmbed";
 
 export default function PersonalizedDemo() {
   return (
@@ -26,12 +27,12 @@ export default function PersonalizedDemo() {
               headingClassName="text-[42px] lg:text-[58px]  font-semibold text-black mb-4"
             />
           </div>
-          <CalendlyEmbed url="https://calendly.com/mytender_io/mytender-io-discovery-call?month=2025-04" />
+          {/* <CalendlyEmbed url="https://calendly.com/mytender_io/mytender-io-discovery-call?month=2025-04" /> */}
+          <HubSpotEmbed url="https://meetings-eu1.hubspot.com/sam-aaron" />
           {/* <iframe
           src="https://calendly.com/mytender_io/mytender-io-discovery-call?month=2025-04"
           className="lg:w-[1012px] mx-auto lg:h-[558px] w-[80%] aspect-video"
         ></iframe> */}
-
           <div className=" w-screen border-t"></div>
           <Slider bg="bg-[#fff]" gradient="from-[#fff]" />
           <SliderMobile bg="bg-[#fff]" gradient="from-[#fff]" />
